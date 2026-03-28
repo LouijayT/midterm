@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Students extends Model
+{
+    protected $table ="students";
+    protected $fillable =
+        [
+            'name',
+            'sku',
+            'description',
+            'category',
+            'price',
+            'cost_price',
+            'stock',
+            'min_stock_level',
+            'supplier_name',
+            'supplier_contact'
+
+        ];
+}
